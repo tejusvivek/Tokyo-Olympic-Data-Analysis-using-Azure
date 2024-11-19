@@ -1,0 +1,26 @@
+{
+    "name": "medals",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_HTTP_medals",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "<!DOCTYPE html>",
+                "type": "String"
+            }
+        ]
+    }
+}
