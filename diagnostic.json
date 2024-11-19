@@ -1,0 +1,23 @@
+{
+    "now": "2024-11-18T07:39:53.722Z",
+    "perfNow": 2086042.5,
+    "diagnosticCorrelation": "e6ea8158-d7e3-4ce1-ab2d-ab6f9d56faee",
+    "source": "DownloadSupportFiles",
+    "environment": {
+        "productName": "adf",
+        "buildVersion": "1.0.101424.2",
+        "environmentType": 3,
+        "resourceName": "Tokyo-olympics-pipeline-df",
+        "resourceRegion": "centralus",
+        "resourceGroup": "1-007ff9b7-playground-sandbox",
+        "subscriptionId": "80ea84e8-afce-4851-928a-9e2219724c69",
+        "sessionId": "HE6ruwIyVbwrm7twfHCINh",
+        "operationId": "",
+        "gitType": "live",
+        "loggingKey": "f42ef429-614e-4cf6-b42c-dbd615623534"
+    },
+    "additionalInfo": {
+        "selectedResource": "Data Ingestion",
+        "selectedResourceType": "pipeline"
+    }
+}

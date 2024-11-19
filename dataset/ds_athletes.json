@@ -1,0 +1,27 @@
+{
+    "name": "ds_athletes",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_HTTP_athletes",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation"
+            },
+            "columnDelimiter": ",",
+            "rowDelimiter": "\n",
+            "escapeChar": "\\",
+            "firstRowAsHeader": false,
+            "quoteChar": null
+        },
+        "schema": [
+            {
+                "name": "<!DOCTYPE html>",
+                "type": "String"
+            }
+        ]
+    }
+}

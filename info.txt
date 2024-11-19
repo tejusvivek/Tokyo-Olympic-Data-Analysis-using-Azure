@@ -1,0 +1,6 @@
+selected resource name:		Data Ingestion
+selected resource type:		pipeline
+factory name:			Tokyo-olympics-pipeline-df
+factory location:		centralus
+subscription id:		80ea84e8-afce-4851-928a-9e2219724c69
+time of download (UTC):		Mon, 18 Nov 2024 07:39:53 GMT

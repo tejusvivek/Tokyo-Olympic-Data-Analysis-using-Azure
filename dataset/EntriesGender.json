@@ -1,0 +1,26 @@
+{
+    "name": "EntriesGender",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "ls_HTTP_entriesgender",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "HttpServerLocation"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "firstRowAsHeader": true,
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "name": "<!DOCTYPE html>",
+                "type": "String"
+            }
+        ]
+    }
+}
